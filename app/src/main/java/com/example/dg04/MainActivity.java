@@ -200,4 +200,5 @@ public class MainActivity extends AppCompatActivity {
         vibrate.vibrate(3000);
         vibrator();
     }
+    //아멘
 }
