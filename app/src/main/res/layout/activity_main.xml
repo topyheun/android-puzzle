@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dg04.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:id="@+id/table"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1px">
+
+            <TableRow
+                android:id="@+id/row1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/image_but_1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="1px" />
+
+                <ImageButton
+                    android:id="@+id/image_but_2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="1px" />
+
+                <ImageButton
+                    android:id="@+id/image_but_3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="1px" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/row2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/image_but_4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="1px" />
+
+                <ImageButton
+                    android:id="@+id/image_but_5"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="1px" />
+
+                <ImageButton
+                    android:id="@+id/image_but_6"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="1px" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/row3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/image_but_7"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="1px" />
+
+                <ImageButton
+                    android:id="@+id/image_but_8"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="1px" />
+
+                <ImageButton
+                    android:id="@+id/image_but_9"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="1px" />
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:id="@+id/control_frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="뒤로가기" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:textColor="#FF0000"
+                android:textSize="15dp"
+                android:text="소요시간   ->    " />
+
+            <Chronometer
+                android:id="@+id/chronometer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:format="@string/chronometer_format" />
+
+            <Button
+                android:id="@+id/shuffle_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0000FF"
+                android:textSize="20dp"
+                android:text="@string/shuffle"
+                 />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
+

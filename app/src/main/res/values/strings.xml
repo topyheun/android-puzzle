@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name"> 수 지 </string>
+    <string name="app_name2"> 수 지 </string>
+    <string name="app_name3"> 수 지 </string>
+    <string name="action_settings">Settings</string>
+    <string name="chronometer_format">%s</string>
+    <string name="shuffle"> 시 작 </string>
+    <string name="complete_button"> 확 인 </string>
+    <string name="complete_title"> 완 료 </string>
+    <string name="audio">bgm</string>
+</resources>
